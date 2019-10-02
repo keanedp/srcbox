@@ -1,0 +1,9 @@
+^{:watch-dirs ["test" "src"]
+  :css-dirs ["resources/public/css"]
+  :auto-testing true}
+{:main srcbox.core
+ :npm-deps false
+ :infer-externs true
+ :foreign-libs [{:file "dist/index.bundle.js"
+                 :provides ["code-mirror"]
+                 :global-exports {code-mirror CodeMirror}}]}

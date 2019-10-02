@@ -1,0 +1,16 @@
+/* some style */
+
+html, body {
+    margin: 0;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#app .editor-container, #app .editor-container > .code-mirror-editor, #app .editor-container > .code-mirror-editor > .CodeMirror {
+    height: 100%;
+}
